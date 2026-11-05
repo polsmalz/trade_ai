@@ -1,0 +1,9 @@
+# Direct dependencies only (UTF-8). Pin the full tree with:  pip freeze > requirements.lock.txt
+# (in PowerShell use:  pip freeze | Out-File -Encoding utf8 requirements.lock.txt)
+fastapi>=0.136
+uvicorn>=0.46
+requests>=2.32
+numpy>=2.4
+pandas>=3.0
+scikit-learn>=1.7,<2
+joblib>=1.4

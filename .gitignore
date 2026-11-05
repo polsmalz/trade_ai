@@ -1,0 +1,23 @@
+# Python
+backend/venv/
+backend/.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.pkl
+*.joblib
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Node / Next.js (frontend also has its own .gitignore)
+node_modules/
+.next/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
